@@ -45,15 +45,15 @@ const Motivation = () => {
 
            <div className="mid-container">
                <div className="all1"><p>Your 
-                                        limitation
-                                        it's only
-                                        your
+                                        limitation 
+                                        it's only 
+                                        your 
                                         imagination</p></div>
                <div className="all2"><p>Great things 
-                                          never come from
+                                          never come from 
                                           comfort zones.</p> </div>
-                <div className="all3"><p>Dream it.
-                                          Wish it.
+                <div className="all3"><p>Dream it. 
+                                          Wish it. 
                                           Do it.</p> </div>
                 <div className="all4" style={{
                    display:'flex',

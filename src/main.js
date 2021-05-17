@@ -10,17 +10,19 @@ const Main = () => {
             justifyContent:'space-between'
         }}>
           <div className="icon"> B </div>
+          
           <div className="pics" style={{
             display:'flex',
             flexDirection:'row',
-            justifyContent:'space-between'
+            justifyContent:'space-around'
           }}> 
           <div className="img"><img src="man1.jpg" alt="Avatar" /></div>
-          <div className="name"><p> Anand Agarwal </p>
-                                <p> Anand.a@bk.com
-            </p></div>
+          <div className="name"><p> Anand Agarwal <br />Anand.a@bk.com </p>
+                                
+                                </div>
           </div>
         </div>
+        
         <div className="middle-container" style={{
             display:'flex',
             flexDirection:'column',

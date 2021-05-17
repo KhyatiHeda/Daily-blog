@@ -13,12 +13,12 @@
 .icon
 {
   border-radius: 25px 0px 25px 0px;
-  padding:20px;
+  padding:15px;
   background-color:white;
   color:black;
   font-family:Arial ;
   font-size:30px;
-  font-weight: 200;
+  font-weight: 400;
   height:30px;
   width:30px;
   text-align:center;
@@ -34,8 +34,9 @@
 .name
 {
   color:white;
-  font-size:20px;
+  font-size:15px;
   font-family: Arial;
+  font-weight:bold;
 }
 
 
@@ -45,6 +46,7 @@
   color:rgba(0, 0, 0, 0.479);
   font-size:20px;
   font-family: Arial;
+  font-weight:bold;
 }
 
 .mot:hover{
@@ -65,15 +67,17 @@
 .prod-but
 {
   border-radius:25px;
-  color:rgb(192, 92, 92);
+  background-color:rgb(192, 92, 92);
   padding:10px;
   text-align:center;
   width:100px;
+  color:white;
   border-color:rgb(192, 92, 92);
+  border:none;
 }
 .prod-but:hover{
-  background-color: rgb(192, 92, 92);
-  color:white;
+  color: rgb(192, 92, 92);
+  background-color:white;
 }
 
 .bottom-box
@@ -85,8 +89,8 @@ backdrop-filter: blur( 4px );
 border-radius: 25px;
 max-width:100%;
 width:300px;
-height:25vh;
-margin:20px;
+height:20vh;
+margin:45px;
 padding:20px;
 }
 
@@ -123,6 +127,7 @@ padding:20px;
   color:white;
   font-family: Arial;
   font-size: 20px;
+  font-weight:bold;
 }
 
 .log-but
@@ -132,12 +137,14 @@ padding:20px;
   box-sizing: border-box;
   max-width: 40px;
   max-height: 50px;
-  color:rgb(201, 75, 75) ;
+  background-color:rgb(201, 75, 75) ;
   text-align:center;
   font-size: 30px;
+  color:white;
+  border:none;
 }
 
 .log-but:hover{
-  background-color:rgb(201, 75, 75) ;
-  color:white;
+  color:rgb(201, 75, 75) ;
+  background-color:white;
 }

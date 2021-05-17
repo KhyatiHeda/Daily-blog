@@ -9,7 +9,8 @@ function App() {
       display:'flex',
       flexDirection:'row',
       justifyContent:'space-between',
-      backgroundColor: 'rgba(0, 0, 0, 0.568)'
+      backgroundColor: 'rgba(0, 0, 0, 0.568)',
+      borderRadius:'25px'
     }}>
      <div><Main /></div> 
      <div><Motivation /></div>
