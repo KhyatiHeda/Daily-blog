@@ -71,13 +71,17 @@
 }
 #Study:hover{
   color: white;
+  
 }
-
 #Study
 {
-  position:absolute;
-  bottom:160px;
+  margin-top: 20px;
 }
+/*#Study
+{
+  position:absolute;
+  bottom:130px;
+}*/
 .prod-but
 {
   
