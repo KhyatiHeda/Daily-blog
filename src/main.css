@@ -3,10 +3,12 @@
   display:flex;
   flex-direction: column;
   justify-content: space-between;
-  /*background-color: rgba(0, 0, 0, 0.637);*/
+  background: rgb(29, 27, 27);
   padding:20px;
+  border-radius: 20px 0px 0px 20px;
   /*height:100%;
   max-height:150vh;*/
+  margin: 0;
   
 }
 
@@ -24,12 +26,7 @@
   text-align:center;
 }
 
-.img
-{
-  border-radius:50%;
-  height: 30px;
-  width:30px;
-}
+
 
 .name
 {
@@ -37,36 +34,53 @@
   font-size:15px;
   font-family: Arial;
   font-weight:bold;
+  text-align: left;
+  position:absolute;
+  left:200px;
+  
 }
 
-
+.pics
+{
+  padding:30px;
+  margin:30px;
+}
 
 .middle-container
 {
-  color:rgba(0, 0, 0, 0.479);
-  font-size:20px;
+  color:rgba(102, 98, 98, 0.568);
+  font-size:1rem;
   font-family: Arial;
   font-weight:bold;
+  padding:20px;
+  margin:20px;
 }
-
-.mot:hover{
+.main-nav{
+  margin: 10px;
+}
+#mot:hover{
   color: white;
 }
-.prod:hover{
+#prod-title:hover{
   color: white;
 }
-.design:hover{
+#design:hover{
   
     color: white;
   
 }
-.Study:hover{
+#Study:hover{
   color: white;
 }
 
+#Study
+{
+  position:absolute;
+  bottom:160px;
+}
 .prod-but
 {
-  border-radius:25px;
+  
   background-color:rgb(192, 92, 92);
   padding:10px;
   text-align:center;
@@ -82,24 +96,34 @@
 
 .bottom-box
 {
-  background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  background: rgba(87, 83, 83, 0.25);
+box-shadow: 0 8px 32px 0 rgba(38, 39, 48, 0.37);
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
 border-radius: 25px;
 max-width:100%;
-width:300px;
-height:20vh;
+width:250px;
+height:100px;
 margin:45px;
 padding:20px;
 }
 
-.rocket
+.rocket,.man-img
 {
   border-radius: 25px;
   background:none;
-  size:20px;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+  align-items: center;
 }
+
+.man-img{
+  position:absolute;
+  right:1150px;
+  
+}
+
 .content
 {
   color:white;
@@ -109,8 +133,8 @@ padding:20px;
 
 .plan
 {
-  border-radius: 25px;
-  padding:15px;
+  border-radius: 5px;
+  padding:10px 20px;
   color:rgb(192, 92, 92);
   background-color: white;
   font-size: 15px;
@@ -132,19 +156,20 @@ padding:20px;
 
 .log-but
 {
-  padding:20px;
   border-radius:50%;
-  box-sizing: border-box;
-  max-width: 40px;
-  max-height: 50px;
-  background-color:rgb(201, 75, 75) ;
+  background-color:rgb(192, 92, 92);
+  padding:10px;
   text-align:center;
-  font-size: 30px;
+  font-size: 3rem;
+  width:70px;
+  height: 70px;
   color:white;
+  border-color:rgb(192, 92, 92);
   border:none;
+  position:absolute;
+  right:820px;
 }
-
 .log-but:hover{
-  color:rgb(201, 75, 75) ;
+  color: rgb(192, 92, 92);
   background-color:white;
 }

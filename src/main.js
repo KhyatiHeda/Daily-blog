@@ -1,4 +1,6 @@
 import './main.css';
+ import MAN from "./man4.jpg"
+import ROK from "./rocket.jpg"
 
 const Main = () => {
     return ( 
@@ -14,31 +16,32 @@ const Main = () => {
           <div className="pics" style={{
             display:'flex',
             flexDirection:'row',
-            justifyContent:'space-around'
+            justifyContent:'space-between',
+            
           }}> 
-          <div className="img"><img src="man1.jpg" alt="Avatar" /></div>
+          { <div className="img" ><img src={MAN} alt="Avatar" className="man-img"/></div> }
           <div className="name"><p> Anand Agarwal <br />Anand.a@bk.com </p>
-                                
-                                </div>
+                              
+       </div>
           </div>
         </div>
         
         <div className="middle-container" style={{
             display:'flex',
             flexDirection:'column',
-            justifyContent:'space-between'
           }}>
-             <div className="mot"> Motivation</div>
-             <div className="prod" style={{
+             <div className="main-nav" id="mot"> Motivation</div>
+             <div className="main-nav" id="prod" style={{
                display:'flex',
                flexDirection:'row',
-               justifyContent:'space-between'
+               justifyContent:'space-between',
+               alignItems: 'center'
              }}> 
-             <div className="prod-title">Productivity</div>
-             <div ><button className="prod-but">New</button></div>
+                <div id="prod-title">Productivity</div>
+                <button className="prod-but">New</button>
               </div>
-             <div className="design">Design </div>
-             <div className="Study"> Study </div>
+             <div className="main-nav" id="design">Design </div>
+             <div className="main-nav" id="Study"> Study </div>
         </div>
         <div className="bottom-container" style=
         {{
@@ -51,11 +54,11 @@ const Main = () => {
               flexDirection:'row',
               justifyContent:'space-between'
             }}>
-            <div><img src="rocket.jpg" className="rocket" alt="Avatar"></img></div>
+            <div><img src={ROK} className="rocket" alt="Avatar"></img></div>
             <div className="see-plan" style={{
               display:'flex',
               flexDirection:'column',
-              justifyContent:'space-around'
+              justifyContent:'space-evenly'
             }}>
             <div><p className="content">Pro account is more powerful. Get 30% off.</p></div>
             <div><button className="plan"> See Plan </button></div>

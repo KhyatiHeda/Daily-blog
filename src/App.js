@@ -1,5 +1,6 @@
 import Main from './main';
 import Motivation from './motivation';
+import "./app.css"
 import react from 'react';
 
 function App() {
@@ -8,12 +9,15 @@ function App() {
     {{
       display:'flex',
       flexDirection:'row',
-      justifyContent:'space-between',
-      backgroundColor: 'rgba(0, 0, 0, 0.568)',
-      borderRadius:'25px'
+      borderRadius:'25px',
+      width : '90vw',
+      margin : 'auto'
     }}>
      <div><Main /></div> 
-     <div><Motivation /></div>
+     <div style={{
+       background:"rgb(29, 27, 27)",
+       borderRadius: "0px 20px 20px 0px"
+    }}><Motivation /></div>
     </div>
   );
 }

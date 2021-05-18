@@ -1,4 +1,8 @@
 import './motivation.css'; 
+import man1 from './mot-1.jpg';
+import man2 from './mot-2.jpg';
+import man3 from './mot-3.jpg';
+import man4 from './mot-4.jpg';
 
 const Motivation = () => {
     return ( 
@@ -15,12 +19,13 @@ const Motivation = () => {
                {{
                    display:'flex',
                    flexDirection:'row',
-                   justifyContent:"space-evenly"
+                   justifyContent:"space-evenly",
+                   alignItems : 'center'
                }}>
-               <div><img src="mot-4" className="pic1" alt="Avatar"></img>
-               <img src="mot-1.jpg" className="pic2" alt="Avatar"></img>
-               <img src="mot-2.jpg" className="pic3" alt="Avatar"></img>
-               <img src="mot-3.jpg" className="pic4" alt="Avatar"></img>
+               <div><img src={man1} className="pic1" alt="Avatar"></img>
+               <img src={man2} className="pic2" alt="Avatar"></img>
+               <img src={man3} className="pic3" alt="Avatar"></img>
+               <img src={man4} className="pic4" alt="Avatar"></img>
 
                </div>
                <div><button className="add">+</button></div>
@@ -29,9 +34,11 @@ const Motivation = () => {
            </div>
            <div className="down" style=
            {{
+               width: "80%",
                display:'flex',
                flexDirection:'row',
-               justifyContent:'space-around'
+               justifyContent:'space-around',
+               alignItems : 'center'
 
            }}>
                <div className="All"> All </div>
