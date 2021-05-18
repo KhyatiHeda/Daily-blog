@@ -1,8 +1,9 @@
+
 .motivation
 {
     display:flex;
   flex-direction: column;
-    background: rgba(12, 12, 12, 0.726);
+    background: rgb(37, 40, 45);
     border-radius:25px;
     width:90%;
     height:90%;
@@ -34,7 +35,7 @@
     box-sizing: border-box;
     height:30px;
     width:30px;
-    border-color: rgb(201, 75, 75);
+    border-color: rgb(228, 117, 162);
     
 }
 
@@ -66,16 +67,16 @@
 }
 .playall-but
 {
-  background-color:rgb(192, 92, 92);
+  background-color:rgb(228, 117, 162);
   padding:10px;
   text-align:center;
   width:100px;
   color:white;
-  border-color:rgb(192, 92, 92);
+  border-color:rgb(228, 117, 162);
   border:none;
 }
 .playall-but:hover{
-  color: rgb(192, 92, 92);
+  color: rgb(228, 117, 162);
   background-color:white;
 }
 
@@ -106,7 +107,7 @@
     background-image: url(hiking.jpg);
     background-size:cover ;
     grid-row-start:1;
-    grid-row-end:6;
+    grid-row-end:5;
     grid-column-start:1;
     grid-column-end:2;
     text-align:right;
@@ -123,7 +124,7 @@
       grid-row-start:1;
     grid-row-end:3;
     grid-column-start:2;
-    grid-column-end:4;
+    grid-column-end:3;
     text-align:center;
     font-size:20px;
     font-weight:bold;
@@ -137,8 +138,8 @@
       background-size: cover;
       grid-row-start:1;
     grid-row-end:3;
-    grid-column-start:4;
-    grid-column-end:6;
+    grid-column-start:3;
+    grid-column-end:4;
     text-align:left;
     font-size:20px;
     font-weight:bold;
@@ -150,10 +151,10 @@
   {
       background-image: url(grey.jpg);
       background-size: cover;
-      grid-row-start:4;
-    grid-row-end:5;
+      grid-row-start:3;
+    grid-row-end:6;
     grid-column-start:2;
-    grid-column-end:6;
+    grid-column-end:4;
     text-align:left;
     font-size:30px;
     font-weight:bold;
@@ -177,7 +178,7 @@
   }
 
   .all4-but:hover{
-      background-color:rgb(192, 92, 92);
+      background-color:rgb(228, 117, 162);
       color:white;
       border:none;
   }

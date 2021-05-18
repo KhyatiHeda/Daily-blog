@@ -15,7 +15,7 @@ function App() {
     }}>
      <div><Main /></div> 
      <div style={{
-       background:"rgb(29, 27, 27)",
+       background:"rgb(43, 46, 55)",
        borderRadius: "0px 20px 20px 0px"
     }}><Motivation /></div>
     </div>

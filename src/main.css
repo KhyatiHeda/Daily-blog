@@ -3,7 +3,7 @@
   display:flex;
   flex-direction: column;
   justify-content: space-between;
-  background: rgb(29, 27, 27);
+  background: rgb(43, 46, 55);
   padding:20px;
   border-radius: 20px 0px 0px 20px;
   /*height:100%;
@@ -81,22 +81,22 @@
 .prod-but
 {
   
-  background-color:rgb(192, 92, 92);
+  background-color:rgb(228, 117, 162);
   padding:10px;
   text-align:center;
   width:100px;
   color:white;
-  border-color:rgb(192, 92, 92);
+  border-color:rgb(228, 117, 162);
   border:none;
 }
 .prod-but:hover{
-  color: rgb(192, 92, 92);
+  color: rgb(228, 117, 162);
   background-color:white;
 }
 
 .bottom-box
 {
-  background: rgba(87, 83, 83, 0.25);
+  background: rgb(63, 64, 76);
 box-shadow: 0 8px 32px 0 rgba(38, 39, 48, 0.37);
 backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
@@ -135,14 +135,14 @@ padding:20px;
 {
   border-radius: 5px;
   padding:10px 20px;
-  color:rgb(192, 92, 92);
+  color:rgb(228, 117, 162);
   background-color: white;
   font-size: 15px;
   font-family: Arial;
 }
 
 .plan:hover{
-  background-color:rgb(192, 92, 92);
+  background-color:rgb(228, 117, 162);
   color:white;
 }
 
@@ -157,19 +157,19 @@ padding:20px;
 .log-but
 {
   border-radius:50%;
-  background-color:rgb(192, 92, 92);
+  background-color:rgb(228, 117, 162);
   padding:10px;
   text-align:center;
   font-size: 3rem;
   width:70px;
   height: 70px;
   color:white;
-  border-color:rgb(192, 92, 92);
+  border-color:rgb(228, 117, 162);
   border:none;
   position:absolute;
   right:820px;
 }
 .log-but:hover{
-  color: rgb(192, 92, 92);
+  color: rgb(228, 117, 162);
   background-color:white;
 }
