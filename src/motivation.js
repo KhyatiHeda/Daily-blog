@@ -70,10 +70,21 @@ const Motivation = () => {
                                         it's only 
                                         your 
                                         imagination</p>
-                                        <div className="all1-but"><img src={but} className="all1-img" alt="Avatar"></img></div></div>
-               <div className="all2"><p>Great things 
+                                        <div className="all1-but"><svg className="all1-img" width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM10 16.5V7.5L16 12L10 16.5Z" fill="white"/>
+<path d="M10 16.5L16 12L10 7.5V16.5Z" fill="#E475A2"/>
+</svg></div></div>
+               <div className="all2" style={{
+                   display:'flex',
+                   flexDirection:'column',
+                   justifyContent:'space-around'
+                }}><p>Great things 
                                           never come from 
-                                          comfort zones.</p> </div>
+                                          comfort zones.</p> 
+                                          <div className="all2-but"><svg className="all2-img" width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM10 16.5V7.5L16 12L10 16.5Z" fill="white"/>
+<path d="M10 16.5L16 12L10 7.5V16.5Z" fill="#E475A2"/>
+</svg></div></div>
                 <div className="all3"><p>Dream it. 
                                           Wish it. 
                                           Do it.</p> </div>
